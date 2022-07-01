@@ -1,14 +1,14 @@
 .container {
   display: flex;
   width: 100%;
-  background-color: rgb(216, 213, 213);
+  background-color: #333;
   justify-content: center;
 }
 
 .center {
   column-count: 1;
   width: 500px;
-  margin: 10px;
+  margin-top: 150px;
 }
 
 @media (min-width: 800px) {

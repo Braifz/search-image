@@ -9,8 +9,12 @@ html * {
 header {
   display: flex;
   width: 100%;
+  height: 100px;
   justify-content: center;
-  background-color: #fff;
+  align-items: center;
+  background-image: url("./assets/forest.jpg");
+  background-position: center;
+  background-size: cover;
   padding: 22px;
   box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
   z-index: 2;
@@ -20,7 +24,8 @@ header {
 header input {
   outline: none;
   border: solid 1px #eee;
-  padding: 15px 5px;
-  border-radius: 4px;
+  padding: 15px 15px;
+  font-size: 1.2rem;
+  border-radius: 16px;
   width: 300px;
 }
